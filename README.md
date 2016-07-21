@@ -48,3 +48,7 @@
 #####moudle11：
 增加drawer，现有删除文件缓存功能<br>
 增加下拉刷新功能
+#####moudle12：
+增加fragment中的listview的拖拽效果<br>
+修复刷新不能点击item的BUG<br>
+增加带跟随progressbar的下拉刷新
