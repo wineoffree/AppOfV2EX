@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape_fragment"
+    android:orientation="vertical">
+<TextView
+    android:text="长按项目进行排序"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <com.example.administrator.packagetest.DragListView
+        android:id="@+id/sortlistview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:padding="10dp"
+            android:layout_toLeftOf="@+id/sortcancel"
+            android:id="@+id/sortsure"
+            android:text="确定"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:padding="10dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/sortcancel"
+            android:text="取消"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+</LinearLayout>

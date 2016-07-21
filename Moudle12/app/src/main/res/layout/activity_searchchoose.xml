@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search.SearchChooseActivity"
+    android:background="@drawable/choosebackgroud">
+    >
+<Button
+    android:id="@+id/chooseuser"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:background="@drawable/choose"
+    android:text="搜索用户"
+    android:textSize="20dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="60dp"/>
+    <Button
+        android:id="@+id/chooseitem"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/choose"
+        android:text="搜索帖子"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"/>
+</RelativeLayout>
